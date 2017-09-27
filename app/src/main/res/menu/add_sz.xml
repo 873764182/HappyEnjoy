@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_s"
+        android:title="记录收入" />
+
+    <item
+        android:id="@+id/add_z"
+        android:title="记录支出" />
+
+    <item
+        android:id="@+id/add_stj"
+        android:title="收入统计" />
+
+    <item
+        android:id="@+id/add_ztj"
+        android:title="支出统计" />
+</menu>

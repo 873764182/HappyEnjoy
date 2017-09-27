@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pixel.he.SzAddActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:text="返回"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:padding="8dp"
+            android:text="记录"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:padding="8dp"
+            android:text="保存"
+            android:textColor="#FFFFFF"
+            android:transitionName="shareName" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:editable="false"
+        android:hint="选择时间"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:editable="false"
+        android:hint="类型描述"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="输入金额"
+        android:inputType="number"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editNote"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:gravity="top|left"
+        android:hint="备注信息"
+        android:padding="8dp"
+        android:textSize="12sp" />
+
+</LinearLayout>
